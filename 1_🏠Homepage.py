@@ -25,11 +25,11 @@ with st.sidebar.container():
             )
         
     if action == "Track your nutrients.":
-        st.switch_page('Pages/2_🖲️Track.py')
+        st.switch_page('pages/2_🖲️Track.py')
     elif action == "Get a suggestion for your next meal.":
-        st.switch_page("Pages/3_💡Suggest.py")
+        st.switch_page("pages/3_💡Suggest.py")
     elif action == "Analyse your nutrition information.":
-        st.switch_page("Pages/4_⚒️Analyse.py")
+        st.switch_page("pages/4_⚒️Analyse.py")
 
 
 
